@@ -1,8 +1,6 @@
 # Laravel Dusk Demo
 
-This is a demo project for the Alpha version of [Laravel Dusk](https://github.com/laravel/dusk). This is still work in progress, so if you find issues just let me know.
-
-## Reading the tests
+This is a demo project for the Alpha version of [Laravel Dusk](https://github.com/laravel/dusk). It basically tests the register and login functionality from the default application scaffold from Laravel running `php artisan make:auth` using Dusk.
 
 You can find the tests in the `tests/Browser` directory. For more information on the functions see the [Laravel Dusk documentation](https://github.com/laravel/dusk/blob/master/readme.md).
 
