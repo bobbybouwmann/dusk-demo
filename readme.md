@@ -4,7 +4,7 @@ This is a demo project for the Alpha version of [Laravel Dusk](https://github.co
 
 You can find the tests in the `tests/Browser` directory. For more information on the functions see the [Laravel Dusk documentation](https://github.com/laravel/dusk/blob/master/readme.md).
 
-## Running the tests!
+## Running Dusk!
 
 - Clone or fork and clone the project
 - Run `composer install`
@@ -12,4 +12,6 @@ You can find the tests in the `tests/Browser` directory. For more information on
 - Make sure your application is accessible by the browser. I used [homestead](https://laravel.com/docs/5.3/homestead) to set everything up.
 - Run `php artisan dusk` to run the tests
 
-> Note: You don't have to migrate the database since it will migrate the database for each test. See `DatabaseMigrations`
+You might see some chrome windows popup! Dusk is doing that for you! How **awesome** is that? If you watch the windows carefully you can even see the fields being filled.
+
+> Note: You don't have to migrate the database since it will migrate the database for each test. See `use DatabaseMigrations` in the test classes.
