@@ -4,6 +4,9 @@ This is a demo project for the Alpha version of [Laravel Dusk](https://github.co
 
 You can find the tests in the `tests/Browser` directory. For more information on the functions see the [Laravel Dusk documentation](https://github.com/laravel/dusk/blob/master/readme.md).
 
+## Travis
+This project is build on Travis and also runs the `php artisan dusk` command there which is really cool!
+
 ## Running Dusk!
 
 - Clone or fork and clone the project
